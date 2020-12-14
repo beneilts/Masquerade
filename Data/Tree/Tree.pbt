@@ -629,11 +629,12 @@ Objects {
     TeamSettings {
     }
     AudioBP {
+      AutoPlay: true
       Pitch: 534.56665
-      Volume: 4
+      Volume: 3.20100331
       Falloff: 3600
       Radius: 400
-      FadeOutTime: 5
+      FadeInTime: 5
     }
   }
 }
@@ -1007,7 +1008,7 @@ Objects {
         }
         Overrides {
           Name: "cs:Duration"
-          Float: 5
+          Float: 5.5
         }
         Overrides {
           Name: "cs:LinearPath"
@@ -2844,7 +2845,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -2978,7 +2979,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3071,7 +3072,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3164,7 +3165,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3257,7 +3258,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3350,7 +3351,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3443,7 +3444,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3536,7 +3537,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3637,7 +3638,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3730,7 +3731,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3823,7 +3824,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 9165175727844088136
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -3916,7 +3917,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4017,7 +4018,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4118,7 +4119,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4219,7 +4220,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4320,7 +4321,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4421,7 +4422,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4522,7 +4523,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4623,7 +4624,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {
@@ -4724,7 +4725,7 @@ Objects {
     Overrides {
       Name: "ma:Font.Bevel:id"
       AssetReference {
-        Id: 2592233277028940545
+        Id: 13145298078819769155
       }
     }
     Overrides {

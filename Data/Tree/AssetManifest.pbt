@@ -134,15 +134,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9165175727844088136
-  Name: "Basic Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_basic_hologram"
-  }
-}
-Assets {
   Id: 9018367707762430752
   Name: "Text 06: U"
   PlatformAssetType: 1
@@ -230,14 +221,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_000"
-  }
-}
-Assets {
-  Id: 2592233277028940545
-  Name: "Energy Tube Glow"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "Energy_Tube_Glow"
   }
 }
