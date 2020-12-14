@@ -60,10 +60,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 9063812107961090531
-  ChildIds: 291744006875912885
-  ChildIds: 4097092156873773042
-  ChildIds: 10962393622813491831
+  ChildIds: 4497317728644510457
   ChildIds: 5990560629551299841
   ChildIds: 9267494891612121564
   ChildIds: 11661179173050425615
@@ -100,6 +97,7 @@ Objects {
   ChildIds: 12544450645985685783
   ChildIds: 11787967566383617226
   ChildIds: 3298647096096338952
+  ChildIds: 18392809268125188677
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -107,6 +105,65 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 18392809268125188677
+  Name: "TitleScreenListener-Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13466390230705276678
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EnvironmentFogDefaultVFX"
+      ObjectReference {
+        SelfId: 15110478977335025955
+      }
+    }
+    Overrides {
+      Name: "cs:ExtraEffects"
+      ObjectReference {
+        SelfId: 4497317728644510457
+      }
+    }
+    Overrides {
+      Name: "cs:SunLight"
+      ObjectReference {
+        SelfId: 11414899727297236890
+      }
+    }
+    Overrides {
+      Name: "cs:HUD"
+      ObjectReference {
+        SelfId: 7874812662315708489
+      }
+    }
+    Overrides {
+      Name: "cs:UI"
+      ObjectReference {
+        SelfId: 16577485887705069617
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17944462065509855469
+    }
   }
 }
 Objects {
@@ -369,7 +426,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Blueprint {
     BlueprintAsset {
@@ -532,7 +589,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Blueprint {
     BlueprintAsset {
@@ -706,6 +763,14 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "TitleScreenStart"
+        }
       }
     }
     TemplateAsset {
@@ -835,6 +900,14 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "TitleScreenStart"
+        }
       }
     }
     TemplateAsset {
@@ -960,6 +1033,14 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "TitleScreenStart"
         }
       }
     }
@@ -6083,12 +6164,13 @@ Objects {
   }
 }
 Objects {
-  Id: 10962393622813491831
-  Name: "Advanced Color Grading Post Process"
+  Id: 4497317728644510457
+  Name: "ExtraEffects"
   Transform {
     Location {
-      X: 11967.9111
-      Y: 1263.48767
+      X: 11675.6748
+      Y: 181.294
+      Z: -242.127411
     }
     Rotation {
     }
@@ -6099,6 +6181,37 @@ Objects {
     }
   }
   ParentId: 6369339473398131527
+  ChildIds: 9063812107961090531
+  ChildIds: 291744006875912885
+  ChildIds: 4097092156873773042
+  ChildIds: 10962393622813491831
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10962393622813491831
+  Name: "Advanced Color Grading Post Process"
+  Transform {
+    Location {
+      X: 292.236328
+      Y: 1082.1936
+      Z: 242.127411
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4497317728644510457
   UnregisteredParameters {
     Overrides {
       Name: "bp:Scene Tint"
@@ -6129,9 +6242,8 @@ Objects {
   Name: "Advanced Bloom Post Process"
   Transform {
     Location {
-      X: 11612.457
-      Y: -538.311646
-      Z: -242.127411
+      X: -63.2177734
+      Y: -719.605652
     }
     Rotation {
     }
@@ -6141,7 +6253,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6369339473398131527
+  ParentId: 4497317728644510457
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
@@ -6160,7 +6272,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Blueprint {
     BlueprintAsset {
@@ -6175,7 +6287,9 @@ Objects {
   Name: "Ambient Occlusion Recolor Post Process"
   Transform {
     Location {
-      X: 11561.167
+      X: -114.507813
+      Y: -181.294
+      Z: 242.127411
     }
     Rotation {
     }
@@ -6185,7 +6299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6369339473398131527
+  ParentId: 4497317728644510457
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -6243,8 +6357,9 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      X: 11561.167
-      Z: 700
+      X: -114.507813
+      Y: -181.294
+      Z: 942.127441
     }
     Rotation {
     }
@@ -6254,7 +6369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6369339473398131527
+  ParentId: 4497317728644510457
   UnregisteredParameters {
     Overrides {
       Name: "bp:Index"

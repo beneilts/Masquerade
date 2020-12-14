@@ -146,6 +146,7 @@ function Stop()
 	
 	local player = Game.GetLocalPlayer()
 	player:ClearOverrideCamera()
+	Events.Broadcast("OnPlayerJoined.TitleScreenEnd")
 end
 
 
