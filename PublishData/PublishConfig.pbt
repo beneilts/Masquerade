@@ -1,0 +1,16 @@
+﻿GameId: "bb04f7c7d74a48b399917ff323328a99"
+ClientVersion: "1.0.170-prod-s"
+Name: "The Last Masquerade"
+Description: "Submission for Survival Game Jam\r\n\r\nContributors: Aggripina, KidEgg, mjcortes782, Ooccoo"
+MaxPlayers: 4
+IsPrivate: true
+Tags: "Multiplayer"
+Tags: "Cooperative"
+Tags: "Horror"
+Tags: "Action"
+ScreenshotPaths: "D:\\CORE\\Saved\\Maps\\Masquerade\\Screenshots\\Tittle.png"
+ScreenshotPaths: "D:\\CORE\\Saved\\Maps\\Masquerade\\Screenshots\\Maquerade_Game1.png"
+ScreenshotPaths: "D:\\CORE\\Saved\\Maps\\Masquerade\\Screenshots\\Maquerade_Game3.png"
+ScreenshotPaths: "D:\\CORE\\Saved\\Maps\\Masquerade\\Screenshots\\Maquerade_Game5.png"
+ScreenshotPaths: "D:\\CORE\\Saved\\Maps\\Masquerade\\Screenshots\\Maquerade_Game10.png"
+OwnerId: "a136c0d1d9454d539c9932354198fc29"
