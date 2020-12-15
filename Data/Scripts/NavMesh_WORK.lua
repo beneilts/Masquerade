@@ -101,12 +101,14 @@ function NavMesh.FindPath(startPoint, endPoint)
 		local currentNode = currentElement.path[#currentElement.path]
 		if not visitedNodes[currentNode] then
 			visitedNodes[currentNode] = true
+			local count = 0
 			for _, rectangle in pairs(currentNode.connectedRectangles) do
 				if endRectangles[rectangle] then
 					solutionPath = currentElement.path
 					solutionPath[#solutionPath + 1] = endNode
 					break
 				end
+				local countTwo = 0
 				for _, node in pairs(rectangle.nodes) do
 					if not visitedNodes[node] then
 						local newPath = {table.unpack(currentElement.path)}
@@ -118,8 +120,21 @@ function NavMesh.FindPath(startPoint, endPoint)
 							lengthPlusHeuristic = newLength + (node.position - endNode.position).size
 						}, pathNodeMetatable))
 					end
+					countTwo = countTwo + 1
+					if count > 50 then
+						Task.Wait()
+						countTwo = 0
+					end
+				end
+				count = count + 1
+				if count > 50 then
+					Task.Wait()
+					count = 0
 				end
 			end
+		end
+		if iterations ~= 0 and math.modf(iterations % 50) == 0 then
+			Task.Wait()
 		end
 	end
 	if NavMeshGenerator.SHOW_DEBUG then
@@ -185,6 +200,7 @@ function NavMesh.FindPath(startPoint, endPoint)
 						end
 					end
 					local validIntersectionExists = false
+					
 					for node1Index = 1, #sharedNodes - 1 do
 						local node1 = sharedNodes[node1Index]
 						local node1Projection = projectPointOntoRectangle(node1.position, projectionRectangle)

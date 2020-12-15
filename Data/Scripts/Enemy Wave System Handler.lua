@@ -19,7 +19,7 @@ local DamageRange = Vector2.New(5, 30)
 local HealthRange = Vector2.New(50, 100)
 local NumberOfActiveEnemies = 3 -- The number of enemies that can be on the map at once; increases with each round
 local NumberOfEnemiesSpawned = 6 -- How many enemies that should be spawned in a round; increases with each round; no cap
-local MAX_NumberOfActiveEnemies = 3 -- NEED TO FIGURE OUT THIS VALUE
+local MAX_NumberOfActiveEnemies = 5 -- NEED TO FIGURE OUT THIS VALUE
 local EnemyBurstRange = Vector2.New(1, 3)
 local BurstDelayRange = Vector2.New(4, 6)
 local SpawnDelayRange = Vector2.New(2, 4)
@@ -155,7 +155,7 @@ function SpawnEnemyBurst()
 		newEnemy:SetNetworkedCustomProperty("CurrentHealth", math.random(HealthRange.x, HealthRange.y))
 		
 		while newEnemy:GetCustomProperty("ObjectId") == 0 do Task.Wait() end
-		ActiveEnemies[newEnemy:GetCustomProperty("ObjectId")] = true--newEnemy
+		ActiveEnemies[newEnemy:GetCustomProperty("ObjectId")] = newEnemy
 		print(">> Enemy Id: "..newEnemy:GetCustomProperty("ObjectId"))
 		EnemyCount = EnemyCount + 1
 		EnemiesSpawnedThisRound = EnemiesSpawnedThisRound + 1

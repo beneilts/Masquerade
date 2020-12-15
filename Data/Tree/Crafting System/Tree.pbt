@@ -2263,7 +2263,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 2
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -2378,7 +2378,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 20
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -2567,7 +2567,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 20
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -2755,7 +2755,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 2
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -2829,7 +2829,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 20
+      Int: 4
     }
   }
   Collidable_v2 {
@@ -2906,7 +2906,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 2
+      Int: 4
     }
   }
   Collidable_v2 {
@@ -2980,7 +2980,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 20
+      Int: 5
     }
   }
   Collidable_v2 {

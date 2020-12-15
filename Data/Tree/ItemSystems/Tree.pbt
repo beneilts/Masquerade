@@ -7124,11 +7124,11 @@ Objects {
     }
     Overrides {
       Name: "cs:MinimumStackWhenDropped"
-      Int: 4
+      Int: 1
     }
     Overrides {
       Name: "cs:MaximumStackWhenDropped"
-      Int: 8
+      Int: 2
     }
     Overrides {
       Name: "cs:Likelihood:tooltip"

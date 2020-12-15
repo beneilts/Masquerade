@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 17419007117128591768
+  Name: "Horror Prepared Piano Music Stingers Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_horrorPreparedPiano_stingers_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6

@@ -6613,7 +6613,6 @@ Objects {
   ChildIds: 1697941453229132160
   ChildIds: 11134237986836690495
   ChildIds: 16822416896932708082
-  ChildIds: 11080662621124231758
   ChildIds: 16236817946461036996
   ChildIds: 6700598310348932506
   ChildIds: 9788949026711827915
@@ -6857,9 +6856,10 @@ Objects {
     }
     AutoPlay: true
     Repeat: true
-    Volume: 0.3
+    Volume: 0.1
     Falloff: -1
     Radius: -1
+    FadeInTime: 10
   }
 }
 Objects {
@@ -6901,45 +6901,6 @@ Objects {
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 11080662621124231758
-  Name: "Horror Prepared Piano Music Stingers Set 01"
-  Transform {
-    Location {
-      X: -1473.61914
-      Y: 6085.44971
-      Z: 270.245483
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1453917317590984758
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17419007117128591768
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      AutoPlay: true
-      Repeat: true
-      Volume: 0.5
-      Falloff: 3600
-      Radius: 400
-    }
   }
 }
 Objects {
@@ -7103,6 +7064,7 @@ Objects {
       Volume: 0.05
       Falloff: 3600
       Radius: 400
+      FadeInTime: 10
     }
   }
 }
