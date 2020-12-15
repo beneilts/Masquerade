@@ -2,7 +2,7 @@
   Id: 14135747797564739858
   Name: "Eduard_Floor"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 2723232960546970913
     ParameterOverrides {

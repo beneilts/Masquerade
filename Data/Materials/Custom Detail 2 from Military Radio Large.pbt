@@ -2,7 +2,7 @@
   Id: 3458793542905799577
   Name: "Custom Detail 2 from Military Radio Large"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 13477573616124788615
     ParameterOverrides {

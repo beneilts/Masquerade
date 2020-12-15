@@ -2,7 +2,7 @@
   Id: 1210798042780035228
   Name: "Custom Base Material from Trim Bottom 8m"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 9943922400307290728
     ParameterOverrides {

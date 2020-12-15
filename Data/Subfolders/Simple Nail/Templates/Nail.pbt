@@ -216,6 +216,6 @@
   Marketplace {
     Description: "Simple Nail"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

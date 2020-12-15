@@ -2,7 +2,7 @@
   Id: 2437785155179214151
   Name: "E_Wood Stairs"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 7754470856388882901
     ParameterOverrides {

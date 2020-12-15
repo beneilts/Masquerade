@@ -2,7 +2,7 @@
   Id: 5833833652327504031
   Name: "Custom Leaves from Kelp Tile 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 17101334925361053672
     ParameterOverrides {

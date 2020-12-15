@@ -2,7 +2,7 @@
   Id: 15539610532265594654
   Name: "Custom Metal Gold 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 14666254890297682482
     ParameterOverrides {

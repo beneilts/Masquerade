@@ -2,7 +2,7 @@
   Id: 14620759859701954652
   Name: "Piano"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 1778446291070997431
     ParameterOverrides {

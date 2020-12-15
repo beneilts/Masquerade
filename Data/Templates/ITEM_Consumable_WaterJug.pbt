@@ -146,7 +146,7 @@
     }
     Assets {
       Id: 9643743770374877205
-      Name: "Military Tank Fuel Container 01"
+      Name: "Military Tank Historic Container 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -185,5 +185,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

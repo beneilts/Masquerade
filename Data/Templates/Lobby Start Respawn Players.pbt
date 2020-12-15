@@ -84,5 +84,5 @@
       AssetId: "Lobby_Start_Respawn_Players"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

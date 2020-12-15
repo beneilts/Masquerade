@@ -2,7 +2,7 @@
   Id: 13145298078819769155
   Name: "Custom Ice Opaque"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 10829219311996870995
     ParameterOverrides {

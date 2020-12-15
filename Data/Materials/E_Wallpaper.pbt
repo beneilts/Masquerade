@@ -2,7 +2,7 @@
   Id: 14155950300282951770
   Name: "E_Wallpaper"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 17987076529823296516
     ParameterOverrides {

@@ -1688,7 +1688,7 @@
     }
     Assets {
       Id: 14307818101647843922
-      Name: "Rebar Single 4m"
+      Name: "Urban Damaged Rebar - Single 4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1700,5 +1700,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

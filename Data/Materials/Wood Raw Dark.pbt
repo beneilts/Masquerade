@@ -2,7 +2,7 @@
   Id: 16447979940606251233
   Name: " Wood Raw Dark"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 7754470856388882901
     ParameterOverrides {

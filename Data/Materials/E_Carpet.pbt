@@ -2,7 +2,7 @@
   Id: 14635144705581334675
   Name: "E_Carpet"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 5231234436357364181
     ParameterOverrides {

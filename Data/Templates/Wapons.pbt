@@ -11479,7 +11479,7 @@
     }
     Assets {
       Id: 11940241190374903094
-      Name: "Scifi Panel 1x4m Corner-cut"
+      Name: "Sci-fi Panel 1x4m Corner-cut"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11488,7 +11488,7 @@
     }
     Assets {
       Id: 15661462707704602671
-      Name: "Scifi Panel 1x3m Angled Right"
+      Name: "Sci-fi Panel 1x3m Angled Right"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11551,7 +11551,7 @@
     }
     Assets {
       Id: 16965777294932964901
-      Name: "Cube - Polished"
+      Name: "Cube - Chamfered Large Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11578,7 +11578,7 @@
     }
     Assets {
       Id: 5836430349218932838
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11635,5 +11635,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

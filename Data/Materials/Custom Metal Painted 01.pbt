@@ -2,7 +2,7 @@
   Id: 4165413787272228223
   Name: "Custom Metal Painted 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 6089138186358314790
     ParameterOverrides {

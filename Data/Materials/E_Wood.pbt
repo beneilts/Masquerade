@@ -2,7 +2,7 @@
   Id: 9645470228018558378
   Name: "E_Wood"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 2723232960546970913
     ParameterOverrides {

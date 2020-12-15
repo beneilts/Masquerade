@@ -2,7 +2,7 @@
   Id: 9087024953674519947
   Name: "Custom Wallpaper Damask 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 17815080828422610209
     ParameterOverrides {

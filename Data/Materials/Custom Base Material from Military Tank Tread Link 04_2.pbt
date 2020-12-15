@@ -2,7 +2,7 @@
   Id: 10580266278793114549
   Name: "Custom Base Material from Military Tank Tread Link 04_2"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

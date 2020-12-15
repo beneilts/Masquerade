@@ -2,7 +2,7 @@
   Id: 9149198916827903630
   Name: "E_Gel"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 3683818352961859806
     ParameterOverrides {

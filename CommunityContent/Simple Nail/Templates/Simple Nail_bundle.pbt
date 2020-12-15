@@ -40,5 +40,5 @@
     Version: "1.0.0"
     Description: "Simple Nail"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

@@ -45,7 +45,7 @@ Assets {
 }
 Assets {
   Id: 18292448005538599011
-  Name: "Part - Pillar Small Mainstreet"
+  Name: "Main Street Pillar 01 - Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -180,7 +180,7 @@ Assets {
 }
 Assets {
   Id: 17827621072606588980
-  Name: "Damaged Concrete Pillar Bottom 02"
+  Name: "Urban Damaged Concrete Pillar - Bottom 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -324,7 +324,7 @@ Assets {
 }
 Assets {
   Id: 16965777294932964901
-  Name: "Cube - Polished"
+  Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -378,7 +378,7 @@ Assets {
 }
 Assets {
   Id: 16607591849780623518
-  Name: "Decal Debris 01"
+  Name: "Decal Street Litter 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
@@ -477,7 +477,7 @@ Assets {
 }
 Assets {
   Id: 16245899296389337529
-  Name: "Damaged Concrete Chunk 02"
+  Name: "Urban Damaged Concrete Chunk 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -540,7 +540,7 @@ Assets {
 }
 Assets {
   Id: 15864537660089476386
-  Name: "Rebar Twisted Ends 01"
+  Name: "Urban Damaged Rebar - Twisted Ends 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -720,7 +720,7 @@ Assets {
 }
 Assets {
   Id: 14680562137661336195
-  Name: "Rebar Lattice 01"
+  Name: "Urban Damaged Rebar - Lattice 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1161,7 +1161,7 @@ Assets {
 }
 Assets {
   Id: 12247910394616419067
-  Name: "Damaged Concrete Pillar Bottom 01"
+  Name: "Urban Damaged Concrete Pillar - Bottom 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1179,7 +1179,7 @@ Assets {
 }
 Assets {
   Id: 12209528205531445270
-  Name: "Damaged Concrete Pillar Top 01"
+  Name: "Urban Damaged Concrete Pillar - Top 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1377,7 +1377,7 @@ Assets {
 }
 Assets {
   Id: 11024977997119225113
-  Name: "Scifi Cockpit Siderail 01"
+  Name: "Sci-fi Cockpit Siderail 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1575,7 +1575,7 @@ Assets {
 }
 Assets {
   Id: 10221011215825579366
-  Name: "Damaged Concrete Pillar 01"
+  Name: "Urban Damaged Concrete Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1899,7 +1899,7 @@ Assets {
 }
 Assets {
   Id: 8707832908190862340
-  Name: "Wall 02 Corner Trim Mainstreet"
+  Name: "Main Street Wall 02 - Corner Trim 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -2367,7 +2367,7 @@ Assets {
 }
 Assets {
   Id: 6000681835192046231
-  Name: "Pipe (thick)"
+  Name: "Pipe - Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -2394,7 +2394,7 @@ Assets {
 }
 Assets {
   Id: 5836430349218932838
-  Name: "Pipe (thin)"
+  Name: "Pipe - Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -2403,7 +2403,7 @@ Assets {
 }
 Assets {
   Id: 5770722494384530191
-  Name: "Rebar Lattice 02"
+  Name: "Urban Damaged Rebar Lattice 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -2502,7 +2502,7 @@ Assets {
 }
 Assets {
   Id: 5351428073291024820
-  Name: "Opaque Emissive"
+  Name: "Emissive Glow Opaque"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
@@ -2655,7 +2655,7 @@ Assets {
 }
 Assets {
   Id: 4728953692936333655
-  Name: "Decal Debris 02"
+  Name: "Decal Street Litter 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
@@ -3240,7 +3240,7 @@ Assets {
 }
 Assets {
   Id: 1358463712937310634
-  Name: "Rebar Twisted Ends 02"
+  Name: "Urban Damaged Rebar Twisted Ends 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -3276,7 +3276,7 @@ Assets {
 }
 Assets {
   Id: 1012648459633409157
-  Name: "Damaged Concrete Chunk 01"
+  Name: "Urban Damaged Concrete Chunk 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -3474,7 +3474,7 @@ Assets {
 }
 Assets {
   Id: 109466292103402671
-  Name: "Urban Damaged Concrete Panel End 01"
+  Name: "Urban Damaged Concrete Panel - End 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

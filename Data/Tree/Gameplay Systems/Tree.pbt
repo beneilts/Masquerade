@@ -543,15 +543,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -606,15 +597,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 0.919999957
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
         A: 1
       }
     }
@@ -675,15 +657,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -738,15 +711,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 0.919999957
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
         A: 1
       }
     }
@@ -807,15 +771,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -870,15 +825,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 0.919999957
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:Noise Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
         A: 1
       }
     }

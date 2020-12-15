@@ -2,7 +2,7 @@
   Id: 424978888570482377
   Name: "Shiny_Stone"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 13332127621427464115
     ParameterOverrides {

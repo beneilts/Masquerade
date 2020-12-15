@@ -2,7 +2,7 @@
   Id: 4167314590311923652
   Name: "Custom Base Material from Cube - Chamfered Large Polished"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 16537303900615962216
     ParameterOverrides {

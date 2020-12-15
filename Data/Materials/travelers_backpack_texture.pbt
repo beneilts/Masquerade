@@ -2,7 +2,7 @@
   Id: 9421993861906757969
   Name: "travelers_backpack_texture"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 8243368569973660255
     ParameterOverrides {

@@ -2,7 +2,7 @@
   Id: 11859796367857598174
   Name: "Eduard_WallPaper"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 17987076529823296516
     ParameterOverrides {
