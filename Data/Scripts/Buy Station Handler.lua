@@ -21,7 +21,7 @@ StationTrigger.isInteractable = true
 function OnInteracted(thisTrigger, player)
     local playerMoney = player:GetResource(Currency)
     if playerMoney-Price >= 0 and inventory:GetFreeBackpackSlot() then
-        Events.BroadcastToServer("Buy Station Purchase", Currency, -Price)
+        Events.BroadcastToServer("Buy Station Purchase", Currency, Price)
         inventory:AddItem(ItemDatabase:GetItemFromName(ItemName))
         PurchaseSFX:Play()
     else
