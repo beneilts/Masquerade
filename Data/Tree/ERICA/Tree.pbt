@@ -7013,7 +7013,7 @@ Objects {
     AudioBP {
       AutoPlay: true
       Repeat: true
-      Volume: 0.05
+      Volume: 0.2433175
       Falloff: 3600
       Radius: 400
       FadeInTime: 10
