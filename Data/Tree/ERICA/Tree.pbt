@@ -21781,7 +21781,6 @@ Objects {
       B: 1
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -23962,9 +23961,9 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: -758.425964
-      Y: 394.868622
-      Z: 539.422546
+      X: -810.681091
+      Y: 394.871521
+      Z: 463.779419
     }
     Rotation {
     }
@@ -23982,21 +23981,20 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 7.93272161
+    Intensity: 14.7777
     Color {
       R: 0.38
       G: 0.852185369
       B: 1
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 552.213745
+        AttenuationRadius: 851.711792
         PointLight {
           SourceRadius: 20
           SoftSourceRadius: 20
@@ -28463,7 +28461,6 @@ Objects {
       B: 0.896688819
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -28522,7 +28519,6 @@ Objects {
       B: 0.480000019
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -28581,7 +28577,6 @@ Objects {
       B: 0.480000019
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -28696,7 +28691,6 @@ Objects {
       B: 0.435099363
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -42691,6 +42685,7 @@ Objects {
   ChildIds: 13187711339919697015
   ChildIds: 9811391398742028954
   ChildIds: 2338309524608966245
+  ChildIds: 14981828011054309021
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -42706,6 +42701,63 @@ Objects {
     InstanceId: 14396691937701163903
     TemplateId: 16982605172555310320
     WasRoot: true
+  }
+}
+Objects {
+  Id: 14981828011054309021
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 582.820251
+      Y: 977.907349
+      Z: 241.034012
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.905485749
+      Y: 0.905485749
+      Z: 0.905485749
+    }
+  }
+  ParentId: 10315632665878798449
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 0.31
+      G: 0.999999821
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 8982826736025208358
+    SubobjectId: 3152829994718287148
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
   }
 }
 Objects {
