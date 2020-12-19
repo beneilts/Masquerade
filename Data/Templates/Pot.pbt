@@ -7,7 +7,7 @@
       RootId: 2993642619032099501
       Objects {
         Id: 2993642619032099501
-        Name: "pot"
+        Name: "Pot"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 15861402615770465947
+        ParentId: 4006551668600977005
         ChildIds: 17579042864483288559
         ChildIds: 12712771339069031391
         Collidable_v2 {
@@ -155,7 +155,6 @@
         ChildIds: 17731791434702681052
         ChildIds: 9258711815291603672
         ChildIds: 7830256781445520350
-        ChildIds: 1137306425772944199
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -208,6 +207,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -257,6 +257,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -309,6 +310,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -358,6 +360,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -407,6 +410,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -457,6 +461,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -508,243 +513,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1137306425772944199
-        Name: "trim"
-        Transform {
-          Location {
-            Y: 0.387756348
-            Z: 15.0946655
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13551283148011481394
-        ChildIds: 12879451116813613288
-        ChildIds: 9131153363793071768
-        ChildIds: 13795810115765062465
-        ChildIds: 9910563833353890021
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12879451116813613288
-        Name: "Gear - generic large five-spoked"
-        Transform {
-          Location {
-            Y: -0.63659668
-            Z: 59.3697128
-          }
-          Rotation {
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.657521188
-            Y: 5.03272152
-            Z: 0.657521725
-          }
-        }
-        ParentId: 1137306425772944199
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14666254890297682482
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3364119171515183032
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9131153363793071768
-        Name: "Gear - generic large five-spoked"
-        Transform {
-          Location {
-            Y: -0.430786133
-            Z: 25.9769287
-          }
-          Rotation {
-            Yaw: 17.4270535
-            Roll: 89.9998169
-          }
-          Scale {
-            X: 0.400530308
-            Y: 3.29798055
-            Z: 0.400530338
-          }
-        }
-        ParentId: 1137306425772944199
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14666254890297682482
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3364119171515183032
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13795810115765062465
-        Name: "Gear - generic large five-spoked"
-        Transform {
-          Location {
-            Y: -0.49420166
-            Z: -4.00037861
-          }
-          Rotation {
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.450998098
-            Y: 0.74279207
-            Z: 0.450998276
-          }
-        }
-        ParentId: 1137306425772944199
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14666254890297682482
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3364119171515183032
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9910563833353890021
-        Name: "Gear - generic large five-spoked"
-        Transform {
-          Location {
-            Y: -0.430786133
-            Z: 5.55446243
-          }
-          Rotation {
-            Yaw: 17.4270916
-            Roll: 89.9998093
-          }
-          Scale {
-            X: 0.428498894
-            Y: 1.02229786
-            Z: 0.428503036
-          }
-        }
-        ParentId: 1137306425772944199
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14666254890297682482
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3364119171515183032
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -816,6 +585,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -857,6 +627,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -899,6 +670,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -941,6 +713,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -1318,24 +1091,6 @@
       }
     }
     Assets {
-      Id: 3364119171515183032
-      Name: "Gear - generic large five-spoked"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gen_gear_001_spoke5x"
-      }
-    }
-    Assets {
-      Id: 14666254890297682482
-      Name: "Metal Gold 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_gold_001"
-      }
-    }
-    Assets {
       Id: 17459721539699098341
       Name: "Bush 01"
       PlatformAssetType: 1
@@ -1369,6 +1124,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_torus_003"
+      }
+    }
+    Assets {
+      Id: 14666254890297682482
+      Name: "Metal Gold 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_gold_001"
       }
     }
     PrimaryAssetId {
