@@ -13105,6 +13105,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -23873,7 +23875,6 @@ Objects {
       B: 1
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -23931,7 +23932,6 @@ Objects {
       B: 1
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -38103,7 +38103,6 @@ Objects {
       B: 0.435099363
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -40143,6 +40142,7 @@ Objects {
   ChildIds: 14525937602269299906
   ChildIds: 16399822448384441416
   ChildIds: 3126015191791258731
+  ChildIds: 4441842136915019758
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -40158,6 +40158,63 @@ Objects {
     InstanceId: 14396691937701163903
     TemplateId: 16982605172555310320
     WasRoot: true
+  }
+}
+Objects {
+  Id: 4441842136915019758
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -388.860809
+      Y: 103.946053
+      Z: 224.791031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.905485749
+      Y: 0.905485749
+      Z: 0.905485749
+    }
+  }
+  ParentId: 17455518905395868346
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 0.459999979
+      G: 0.999999881
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 13449775075811824721
+    SubobjectId: 17135985837249513307
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
   }
 }
 Objects {
@@ -40249,7 +40306,6 @@ Objects {
       B: 0.435099363
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -42741,7 +42797,6 @@ Objects {
       B: 0.435099363
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
