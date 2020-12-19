@@ -92,7 +92,6 @@
             B: 0.394172192
             A: 1
           }
-          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
@@ -145,7 +144,6 @@
             B: 0.459999979
             A: 1
           }
-          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
@@ -198,7 +196,6 @@
             B: 1
             A: 1
           }
-          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
